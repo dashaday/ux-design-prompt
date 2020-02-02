@@ -14,7 +14,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @font-face {
-  font-family: Cloud-Bold;
+  font-family: Ostrich;
   src: url("../assets/fonts/OstrichSans-Heavy.otf") format("opentype");
   font-style: normal;
 }
@@ -27,7 +27,7 @@ a {
 }
 
 h1 {
-  font-family: Cloud-Bold, Calibri, Arial, sans-serif;
+  font-family: Ostrich, Calibri, Arial, sans-serif;
   font-size: 8.0em; /* 60px / 18px  = 3.333em */
   line-height: 0.8em;
   text-align: center;
@@ -35,8 +35,7 @@ h1 {
 }
 
 h2 {
-  /* color: #fa8771; */
-  font-family: Cloud-Bold, Calibri, Arial, sans-serif;
+  font-family: Ostrich, Calibri, Arial, sans-serif;
   font-size: 2.666667em; /* 48px / 18px  = 2.667em */
   line-height: 1.5em;
 }
