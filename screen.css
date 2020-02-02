@@ -9,13 +9,13 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 @font-face {
   font-family: Cloud-Light;
-  src: url("../assets/fonts/Cloud-Light.otf") format("opentype");
+  src: url("assets/fonts/Cloud-Light.otf") format("opentype");
   font-style: normal;
 }
 
 @font-face {
   font-family: Ostrich;
-  src: url("../assets/fonts/OstrichSans-Heavy.otf") format("opentype");
+  src: url("assets/fonts/OstrichSans-Heavy.otf") format("opentype");
   font-style: normal;
 }
 
