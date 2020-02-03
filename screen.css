@@ -76,6 +76,7 @@ p {
 
 /* Modular */
 
+/* Header stylings */
 #header {
   align-items: center;
   background-color: #fffeef;
@@ -102,14 +103,38 @@ p {
   height: 100vh;
 }
 
+/* Navigation stylings */
 nav {
   margin: 10vh;
-  display: block;
   position: sticky;
   top: 10vh;
   left: 0;
 }
 
+nav a {
+    color: #2e004f;
+}
+
+nav > ul > li { /* first level */
+  /* font-style: italic; */
+  /* font-family: Cloud-Light, Calibri, Arial, sans-serif; */
+  /* font-weight: 300; */
+  font-style: italic;
+  font-size: 1.222222em;
+  line-height: 1.5em;
+  margin-top: 0.5em;
+}
+
+nav a:hover {
+  color: #834bd5;
+  text-decoration: underline;
+}
+
+nav ul li ul li { /* second level */
+  text-indent: 1em;
+}
+
+/* Content stylings */
 #content {
   padding-top: 10vh;
 }
