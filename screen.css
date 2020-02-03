@@ -136,5 +136,13 @@ nav ul li ul li { /* second level */
 
 /* Content stylings */
 #content {
-  padding-top: 10vh;
+  padding: 10vh 5em 5em 2em;
+}
+
+#content > article {
+  margin-bottom: 2em;
+}
+
+#content > article > article {
+  margin: 1em 0 1em 2em;
 }
