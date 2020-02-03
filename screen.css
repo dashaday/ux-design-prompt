@@ -48,6 +48,7 @@ h3 {
   /* font-family: Ostrich, Calibri, Arial, sans-serif; */
   font-size: 1.666667em; /* 32px / 18px  = 2.667em */
   font-weight: 600;
+  line-height: 1.5em;
 }
 
 h4 {
@@ -56,6 +57,7 @@ h4 {
 
 html {
   background-color: #c8ffe8;
+  color: #2e004f;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.5em; /* 22px / 18px = 1.222... */
   /* font-family: Cloud-Light, Calibri, Arial, sans-serif;
@@ -112,13 +114,14 @@ nav {
 }
 
 nav a {
-    color: #2e004f;
+    color: #4b2b62;
+}
+
+nav > ul {
+  margin-top: 2em;
 }
 
 nav > ul > li { /* first level */
-  /* font-style: italic; */
-  /* font-family: Cloud-Light, Calibri, Arial, sans-serif; */
-  /* font-weight: 300; */
   font-style: italic;
   font-size: 1.222222em;
   line-height: 1.5em;
