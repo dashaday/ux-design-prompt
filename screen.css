@@ -23,29 +23,46 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 a {
   text-decoration: none;
-  color: #464646;
 }
 
 h1 {
+  /* font-style: normal;
+  font-weight: 900;
+  font-family: source-sans-pro,sans-serif; */
   font-family: Ostrich, Calibri, Arial, sans-serif;
-  font-size: 8.0em; /* 60px / 18px  = 3.333em */
+  font-size: 8em; /* 144px / 18px  = 8.0em */
   line-height: 0.8em;
   text-align: center;
-  font-weight: 100;
+  /* font-weight: 100; */
 }
 
 h2 {
-  font-family: Ostrich, Calibri, Arial, sans-serif;
+  /* font-style: italic; */
+  /* font-weight: 600; */
   font-size: 2.666667em; /* 48px / 18px  = 2.667em */
+  font-weight: 900;
   line-height: 1.5em;
+}
+
+h3 {
+  /* font-family: Ostrich, Calibri, Arial, sans-serif; */
+  font-size: 1.666667em; /* 32px / 18px  = 2.667em */
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.333333em;
 }
 
 html {
   background-color: #c8ffe8;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.5em; /* 22px / 18px = 1.222... */
-  font-family: Cloud-Light, Calibri, Arial, sans-serif;
-  font-weight: lighter;
+  /* font-family: Cloud-Light, Calibri, Arial, sans-serif;
+  font-weight: lighter; */
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 img {
