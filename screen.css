@@ -107,7 +107,7 @@ p {
 
 /* Navigation stylings */
 nav {
-  margin: 10vh;
+  margin: 10vh 5em 0 15%;
   position: sticky;
   top: 10vh;
   left: 0;
@@ -142,7 +142,8 @@ nav ul li ul li { /* second level */
   padding: 10vh 5em 5em 2em;
 }
 
-#content > article {
+#content > article,
+#content > p {
   margin-bottom: 2em;
 }
 
