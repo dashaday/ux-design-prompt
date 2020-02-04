@@ -42,6 +42,7 @@ h2 {
   font-size: 2.666667em; /* 48px / 18px  = 2.667em */
   font-weight: 900;
   line-height: 1em;
+  margin-bottom: 0.375em;
 }
 
 h3 {
@@ -52,11 +53,16 @@ h3 {
 }
 
 h4 {
-  font-size: 1.333333em;
+  font-size: 1.333333em; /* 24px */
+  font-weight: 600;
+}
+
+h5 {
+  font-weight: 600;
 }
 
 html {
-  background-color: #c8ffe8;
+  background-color: #d1fdeb;
   color: #2e004f;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.5em; /* 22px / 18px = 1.222... */
@@ -73,7 +79,7 @@ img {
 }
 
 p {
-  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /* Modular */
@@ -117,9 +123,9 @@ nav a {
     color: #4b2b62;
 }
 
-nav > ul {
+/* nav > ul {
   margin-top: 2em;
-}
+} */
 
 nav > ul > li { /* first level */
   font-style: italic;
@@ -148,5 +154,39 @@ nav ul li ul li { /* second level */
 }
 
 #content > article > article {
-  margin: 1em 0 1em 2em;
+  margin: 1em 0 0 2em;
 }
+
+.ci-user {
+  padding-top: 1em;
+}
+
+.ci-article {
+  margin-top: 1em;
+}
+
+#ci-insights figure {
+  align-items: center;
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  margin: 2em 0;
+}
+
+#ci-insights img {
+  max-height: 50vh;\
+  object-fit: scale-down;
+}
+
+#ci-insights figcaption {
+  font-size: 0.8888889em;
+}
+
+/* .ci-performance {
+  display: grid;
+  font-size: 0.8888889em;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;
+} */
