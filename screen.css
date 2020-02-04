@@ -62,10 +62,10 @@ h5 {
 }
 
 html {
-  background-color: #d1fdeb;
+  background-color: #f7feff;
   color: #2e004f;
   font-size: 1.125em; /* 18px / 16px = 1.125em */
-  line-height: 1.5em; /* 22px / 18px = 1.222... */
+  line-height: 1.6em; /* 22px / 18px = 1.222... */
   /* font-family: Cloud-Light, Calibri, Arial, sans-serif;
   font-weight: lighter; */
   font-family: source-sans-pro, sans-serif;
