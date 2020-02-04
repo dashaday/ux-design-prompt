@@ -116,11 +116,52 @@
 
       <article id="heuristic-eval">
         <h3>Heuristic Evaluation</h3>
-        <article class="he-principle">
-          <h4>Principle 1</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+        <p>
+        In this section, I will be pointing out components from the existing system which cause friction to the user experience. I will be applying Principles of Heuristic Evaluation by Jakob Nielsen to assess these components and provide a possible solution to the issue.</p>
+        <article class="he-issue">
+          <h4>Home Page</h4>
+          <figure>
+            <img src="assets/images/he1.png" alt="Home page">
+          </figure>
+          <p>
+          This is the current system's home page. There are 5 main components to it: the request form, the student's submitted requests, the welcome guide, the navigation, and the system buttons located at the top right corner. The problem with this home page is that it fails to have an aesthetic and minimalist design. There are way too many things happening at once and there isn't a focal point where the users can immediately draw their attention to. There is no clear hierarchy in the interface and without it, users have a hard time navigating their way towards their goal.</p>
+          <p>To resolve this, instead of having five main components, we could have two: the request form, and the navigation bar. In the navigation bar, users will be able to access their submitted requests, system settings, and the welcome guide as well.</p>
         </article>
+
+        <article class="he-issue">
+          <h4>Form</h4>
+          <figure>
+            <img src="assets/images/ss3.png" alt="Home page">
+          </figure>
+          <p>
+          The request form in the current system is presented as a pop-up box. From the contextual inquiry, we can see that this gives the users a feeling of restlessness since pop-up boxes are more commonly used for brief interactions such as confirmations or notifications. Having the form displayed as a pop-up violates the principle of consistency. In order to remain consistent, we must be predictable.</p>
+          <p>We can improve this by directing the user to a different page altogether, fully designed and intended as a request form. Not only would this remove the issue of having a pop-up box, but it would also make space for the components to be better designed.</p>
+        </article>
+
+        <article class="he-issue">
+          <h4>Form Layout</h4>
+          <figure>
+            <img src="assets/images/he2.png" alt="Request form">
+          </figure>
+          <p>
+          Looking closer, we can see the necessary fields in the form. At the top we can find the requestor information. This might be important to know if the user is on the receiving end of the order, however, this is simply unimportant and unnecessary to the student who is filling the form. Following that, we have the fields for the building and room number. Upon selecting a building, the form will display the address. Similar to the requestor information, this is information that the user does not need. For a better interface design, we need to keep the user in mind and show only the relevant information to keep a clean interface. It would be optimal to remove both of these information from the form.</p>
+          <p>The search functions for the 'Building' field is great and functional, however a problem that arose from the contextual inquiry was its inability to find the building name with its abbreviation. To apply the principle of User Control and Freedom, the interface should also match user input with the abbreviated or colloquial names of the building.</p>
+          <p>
+          Inside the 'Room #' field, there is instruction saying, "Please enter room number after selecting a building". However, this field still accepts input even if the 'Building' field is empty. This could lead an error in submission. To exercise error prevention, the 'Room #' field should be disabled from editing until there is a valid value in the 'Building' field.</p>
+        </article>
+
+        <article class="he-issue">
+          <h4>Building and Room Selection</h4>
+          <figure id="img-two-col">
+            <img src="assets/images/ss6.png" alt="Building list">
+            <img src="assets/images/ss7.png" alt="Room list">
+          </figure>
+          <p>
+          If the user chooses to click on the blue icon found on the right of the 'Building' and 'Room #' fields, they will find a new pop-up card appear on top of their current pop-up form. As mentioned before, we don't want the form to be presented in this manner. We can also observe that there are multiple fields in both of these lists where users can type in the room they're looking for. Similar to my evaluation on the previous item, this interface confines user freedom and demands that the right query be entered in the right field. A better way to go about this would be to have one field that accepts any of these fields, whether it's the name, number, or code. This allows the user more freedom and less chance of a resulting error.</p>
+          <p>
+          There is also a list that accompanies the search fields. However, this spans multiple pages and can take a while for the user to find their target if they choose to ignore the search fields above. To make the list more efficient and easy to navigate, perhaps a collapsible list would be easier. Building or rooms under the same category would be grouped together. This way, the list would be shorter, easier to understand, and faster to navigate.</p>
+        </article>
+
       </article>
       <!-- End of Heuristic Evaluation -->
 
