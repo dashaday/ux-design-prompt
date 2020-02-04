@@ -176,7 +176,7 @@ nav ul li ul li { /* second level */
 }
 
 #ci-insights img {
-  max-height: 50vh;\
+  max-height: 50vh;
   object-fit: scale-down;
 }
 
@@ -190,3 +190,23 @@ nav ul li ul li { /* second level */
   grid-template-columns: 1fr 2fr;
   grid-gap: 1em;
 } */
+.he-issue figure {
+  margin: 2em 0;
+}
+
+.he-issue img {
+  /* margin: auto; */
+  max-height: 50vh;
+  object-fit: scale-down;
+  width: auto;
+}
+
+#img-two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+#img-two-col img {
+  max-width: 25vw;
+}
