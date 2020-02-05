@@ -201,11 +201,18 @@ nav ul li ul li { /* second level */
   max-width: 25vw;
 }
 
-#breadboard img,
-#wireframe img {
+#breadboard img {
   margin: 1em 0 2em 0;
   max-height: 60vh;
   max-width: 50vw;
+  object-fit: scale-down;
+  width: auto;
+}
+
+#wireframe img {
+  margin: 1em 0 2em 0;
+  max-height: 70vh;
+  max-width: 55vw;
   object-fit: scale-down;
   width: auto;
 }
