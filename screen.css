@@ -209,9 +209,16 @@ nav ul li ul li { /* second level */
   width: auto;
 }
 
-#wireframe img {
+#wireframe img{
   margin: 1em 0 2em 0;
   max-height: 70vh;
+  max-width: 55vw;
+  object-fit: scale-down;
+  width: auto;
+}
+
+#prototype img {
+  margin: 1em 0 2em 0;
   max-width: 55vw;
   object-fit: scale-down;
   width: auto;
